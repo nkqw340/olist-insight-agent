@@ -7,10 +7,10 @@ This project involves the use of Anthropic to create a conversational AI agent t
 Two main functions are needed
 1. sql_run_query connects to the dataset and tells the system to run queries produced by Claude
 2. run_agent tells Claude how to run. It comprises of
-    a. A list containing the history of the conversation which Claude will refer to for every call
-    b. System prompt telling Claude the background and its role
-    c. Tools Claude has access to and requirements to use the tool
-    d. Loop that runs Claude until Claude stops to return the answer or run the tool
+   a. A list containing the history of the conversation which Claude will refer to for every call
+   b. System prompt telling Claude the background and its role
+   c. Tools Claude has access to and requirements to use the tool
+   d. Loop that runs Claude until Claude stops to return the answer or run the tool
 A simple user interface is included with functionalities to return the answer or the history.
 
 **How to set up**
