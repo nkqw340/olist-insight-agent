@@ -1,9 +1,11 @@
 # olist-insight-agent
 
 **What this is**
+
 This project involves the use of Anthropic to create a conversational AI agent that answers business questions about the Olist Brazilian e-commerce dataset by autonomously writing and executing SQL queries.
 
 **How it works**
+
 Two main functions are needed
 1. sql_run_query connects to the dataset and tells the system to run queries produced by Claude
 2. run_agent tells Claude how to run. It comprises of
