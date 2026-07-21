@@ -12,7 +12,7 @@ Two main functions are needed
    c. Tools Claude has access to and requirements to use the tool
    d. Loop that runs Claude until Claude stops to return the answer or run the tool
 A simple user interface is included with functionalities to return the answer or the history.
-
+   
 **How to set up**
 1. Clone the repo
 2. pip install anthropic pandas
